@@ -12,7 +12,7 @@ class MyClass extends AbstractClass
 
     public function run()
     {
-        //callMe marked as nonexitent
+        //callMe marked as nonexistent
         //Call to unknown method: test\AbstractDependency::callMe()PHP(PHP0418)
         $this->dependency->callMe();
     }
